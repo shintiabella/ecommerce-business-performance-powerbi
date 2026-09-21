@@ -49,3 +49,24 @@ The data model follows a star schema structure, with fact tables at the center a
 The model uses relationships between fact and dimension tables to support filtering, aggregation, and DAX calculations in Power BI.
 
 ![Power BI Data Model](images/data_model.png)
+
+## DAX Measures
+
+DAX measures were created to calculate key business metrics used throughout the dashboard.
+
+The main measures include:
+
+- Total Revenue
+- Net Revenue
+- Total Sales
+- Total Quantity
+- Total Orders
+- Total Customers
+- Purchasing Customers
+- Average Revenue per Order
+- Total Events
+- Total Converted Orders
+- Conversion Rate
+- New Customers
+
+These measures are used across the dashboard to support KPI cards, trend analysis, product analysis, customer analysis, and marketing funnel analysis.
