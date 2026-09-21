@@ -8,6 +8,18 @@ The project uses an e-commerce dataset previously analyzed using PostgreSQL and 
 
 The analysis covers sales performance, product performance, customer behavior, and marketing funnel performance.
 
+## Business Questions
+
+This project aims to answer the following business questions:
+
+- How does revenue change over time?
+- Which sales channels and payment methods contribute the most revenue?
+- Which product categories and brands generate the highest revenue?
+- Which products contribute the most to overall revenue?
+- How many customers are purchasing and how many are newly registered?
+- How does the marketing funnel perform across different channels?
+- What is the conversion rate from funnel events to purchases?
+
 ## Dataset & Data Preparation
 
 The project uses an e-commerce transaction dataset containing sales, customer, product, payment, and marketing funnel data.
