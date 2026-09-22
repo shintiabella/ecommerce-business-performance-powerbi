@@ -70,3 +70,25 @@ The main measures include:
 - New Customers
 
 These measures are used across the dashboard to support KPI cards, trend analysis, product analysis, customer analysis, and marketing funnel analysis.
+
+## Dashboard
+
+The Power BI dashboard consists of three pages:
+
+### 1. Executive Summary
+
+Provides an overview of overall business performance through key performance indicators, revenue trends, sales channels, and payment methods.
+
+### 2. Sales & Product Performance
+
+Focuses on sales and product performance, including revenue and quantity by category, top products by revenue, and revenue by brand.
+
+### 3. Customer & Marketing Analysis
+
+Focuses on customer metrics and marketing funnel performance, including customer acquisition, purchasing customers, funnel events, and conversion rates by channel.
+
+![Executive Summary](images/dashboard_page1.png)
+
+![Sales & Product Performance](images/dashboard_page2.png)
+
+![Customer & Marketing Analysis](images/dashboard_page3.png)
