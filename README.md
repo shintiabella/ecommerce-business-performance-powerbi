@@ -92,3 +92,19 @@ Focuses on customer metrics and marketing funnel performance, including customer
 ![Sales & Product Performance](images/dashboard_page2.png)
 
 ![Customer & Marketing Analysis](images/dashboard_page3.png)
+
+## Tools Used
+
+- PostgreSQL — data preparation and transformation
+- Power BI — data modeling, DAX, and dashboard development
+- DAX — business metrics and analytical calculations
+- GitHub — project documentation and version control
+
+## Related Project
+
+This project builds upon a previous analysis of the same e-commerce dataset using PostgreSQL and Looker Studio.
+
+While the previous project focused on SQL-based business analysis and dashboard visualization, this project focuses on Power BI data modeling, star schema design, DAX measures, and interactive dashboard development.
+
+**Previous Project:**  
+[ecommerce-business-performance-analysis](https://github.com/shintia-bella/ecommerce-business-performance-analysis)
