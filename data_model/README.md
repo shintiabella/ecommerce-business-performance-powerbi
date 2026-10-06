@@ -23,3 +23,13 @@ The model is designed to support sales, product, customer, payment, and marketin
 | `dim_payment` | Contains payment IDs and payment method information. |
 | `dim_date` | Contains date attributes used for time-based analysis. |
 | `dim_status` | Contains funnel status and sort order used to organize funnel stages. |
+
+## Star Schema
+
+The model uses `fact_order` as the primary sales fact table, with dimension tables providing descriptive attributes for analysis.
+
+The `fact_funnel` table supports marketing funnel analysis, while `transaction_detail` provides detailed transaction and payment information.
+
+The data model is designed to support filtering and aggregation across different business dimensions such as date, product, customer, payment method, and funnel status.
+
+![Power BI Data Model](../images/data_model.png)
