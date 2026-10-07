@@ -33,3 +33,20 @@ The `fact_funnel` table supports marketing funnel analysis, while `transaction_d
 The data model is designed to support filtering and aggregation across different business dimensions such as date, product, customer, payment method, and funnel status.
 
 ![Power BI Data Model](../images/data_model.png)
+
+## Relationships
+
+The model uses many-to-one relationships with single-direction filtering between transactional tables and their related dimensions.
+
+| From | To | Status |
+|---|---|---|
+| `fact_funnel[customer_id]` | `dim_customer[customer_id]` | Inactive |
+| `fact_funnel[order_id]` | `fact_order[order_id]` | Inactive |
+| `fact_funnel[sku_id]` | `dim_product[sku_id]` | Active |
+| `fact_funnel[status]` | `dim_status[status]` | Active |
+| `fact_order[customer_id]` | `dim_customer[customer_id]` | Active |
+| `fact_order[order_date]` | `dim_date[date]` | Active |
+| `fact_order[sku_id]` | `dim_product[sku_id]` | Active |
+| `fact_order[transaction_id]` | `transaction_detail[transaction_id]` | Active |
+| `transaction_detail[customer_id]` | `dim_customer[customer_id]` | Inactive |
+| `transaction_detail[payment_method]` | `dim_payment[payment_id]` | Active |
