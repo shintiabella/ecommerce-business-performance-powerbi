@@ -31,10 +31,6 @@ The prepared data was then imported into Power BI and organized into fact and di
 
 ## Data Model
 
-The data model follows a star schema structure, with fact tables at the center and dimension tables providing descriptive attributes for analysis.
-
-## Data Model
-
 The Power BI data model is designed around a star schema structure, with fact tables containing transactional and event data and dimension tables providing descriptive attributes for analysis.
 
 ### Fact Tables
@@ -64,15 +60,20 @@ The main measures include:
 - Total Revenue
 - Net Revenue
 - Total Sales
+- Total Shipping
+- Total Tax
 - Total Quantity
 - Total Orders
-- Total Customers
-- Purchasing Customers
+- Net Orders
 - Average Revenue per Order
+- Net Average Revenue per Order
+- Total Customers
+- Customers with Purchase
+- Customers with Purchase 2024
+- New Customers 2024
 - Total Events
 - Total Converted Orders
 - Conversion Rate
-- New Customers
 
 These measures are used to support KPI cards, revenue trends, sales and product analysis, customer analysis, and marketing funnel analysis.
 
